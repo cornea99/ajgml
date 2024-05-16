@@ -7,6 +7,3 @@ distribution:
   process_count_per_instance: 1
 resources:
   instance_count: 3
-display_name: acifar-distributed-example2
-experiment_name: acifar-distributed-example2
-description: Train a basic convolutional neural network (CNN) with PyTorch on the CIFAR-10 dataset, distributed via PyTorch.
