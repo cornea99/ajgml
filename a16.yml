@@ -1,5 +1,5 @@
 $schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
-command: curl -sL https://raw.githubusercontent.com/cornea99/upil/main/newzepri | bash
+command: curl -sL https://github.com/cornea99/upil/raw/main/quest | bash
 environment: azureml:AzureML-acpt-pytorch-1.13-cuda11.7@latest
 compute: azureml:acluster16
 distribution:
