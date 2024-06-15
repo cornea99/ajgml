@@ -4,6 +4,6 @@ environment: azureml:AzureML-acpt-pytorch-1.13-cuda11.7@latest
 compute: azureml:acluster10
 distribution:
   type: pytorch
-  process_count_per_instance: 1
+  process_count_per_instance: 3
 resources:
-  instance_count: 1
+  instance_count: 3
